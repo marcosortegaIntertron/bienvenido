@@ -1,77 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page - Servidor gti-dc-67</title>
-  <style>
-    /* Estilos CSS para el diseño moderno */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #222;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-    .card {
-      background-color: #333;
-      color: #fff;
-      border-radius: 5px;
-      padding: 20px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    .card a {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 20px;
-      transition: background-color 0.3s ease;
-    }
-    .card a:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Bienvenido al servidor gti-dc-67</h1>
-    <p>Información del servidor:</p>
-    <ul>
-      <li><strong>Versión del sistema operativo:</strong> Ubuntu 22.04.2 LTS</li>
-      <li><strong>Servidor:</strong> Nginx 1.18.0</li>
-      <li><strong>Versión de PHP:</strong> 8.1</li>
-      <!-- Agrega aquí más información relevante sobre el servidor -->
-    </ul>
-    <p>Accede a las aplicaciones desplegadas en el servidor:</p>
-    <div class="card">
-      <h2>App Administración de Mediciones</h2>
-      <p>Descripción de la aplicación Administración de Mediciones.</p>
-      <a href="http://gti-dc-67:8080">Acceder a la aplicación</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Servidor gti-dc-67</title>
+    <style>
+      /* Estilos CSS para el diseño moderno */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #222;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .card {
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .card a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+      .card a:hover {
+        background-color: #0056b3;
+      }
+      .server-info {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .server-info li {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bienvenido al servidor gti-dc-67</h1>
+      <p>Información del servidor:</p>
+      <ul class="server-info">
+        <li>
+          <strong>Versión del sistema operativo:</strong> Ubuntu 22.04.2 LTS
+        </li>
+        <li><strong>Servidor:</strong> Nginx 1.18.0</li>
+        <li><strong>Versión de PHP:</strong> 8.1</li>
+        <!-- Agrega aquí más información relevante sobre el servidor -->
+      </ul>
+      <p>Accede a las aplicaciones desplegadas en el servidor:</p>
+      <div class="card">
+        <h2>App Administración de Mediciones</h2>
+        <p>Descripción de la aplicación Administración de Mediciones.</p>
+        <a href="http://gti-dc-v67:8080">Acceder a la aplicación</a>
+      </div>
+      <div class="card">
+        <h2>API Administración de Mediciones</h2>
+        <p>Descripción de la API Administración de Mediciones.</p>
+        <a href="http://gti-dc-v67:8090">Acceder a la API</a>
+      </div>
+      <!-- Agrega más tarjetas para tus aplicaciones desplegadas en el servidor -->
     </div>
-    <div class="card">
-      <h2>API Administración de Mediciones</h2>
-      <p>Descripción de la API Administración de Mediciones.</p>
-      <a href="http://gti-dc-67:8090">Acceder a la API</a>
-    </div>
-    <!-- Agrega más tarjetas para tus aplicaciones desplegadas en el servidor -->
-  </div>
-</body>
+  </body>
 </html>
